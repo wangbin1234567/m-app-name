@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.wrap-l nav {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.wrap-l nav span {
+  flex: 1;
+  text-align: center;
+  line-height: 40px;
+}
+
+.wrap-l nav span a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background: pink;
+  border-top: 1px solid #ccc;
+  display: flex;
+}
+
+footer .span {
+  flex: 1;
+  text-align: center;
+  line-height: 50px;
+}
+
+footer .span a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
